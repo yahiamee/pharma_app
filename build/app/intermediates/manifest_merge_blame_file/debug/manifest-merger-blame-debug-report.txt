@@ -1,0 +1,737 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.sixamtech.sixam_mart"
+4    android:versionCode="1"
+5    android:versionName="1.0.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="21"
+9        android:targetSdkVersion="33" />
+10    <!--
+11         Flutter needs it to communicate with the running application
+12         to allow setting breakpoints, to provide hot reload, etc.
+13    -->
+14    <uses-permission android:name="android.permission.INTERNET" />
+14-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:8:5-66
+14-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:8:22-64
+15    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+15-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:9:5-79
+15-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:9:22-76
+16    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+16-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:10:5-81
+16-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:10:22-78
+17
+18    <queries>
+18-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:12:5-25:15
+19        <intent>
+19-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:13:9-16:18
+20            <action android:name="android.intent.action.VIEW" />
+20-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:13-65
+20-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:21-62
+21
+22            <data android:scheme="https" />
+22-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:13-44
+22-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:19-41
+23        </intent>
+24        <intent>
+24-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:17:9-20:18
+25            <action android:name="android.intent.action.DIAL" />
+25-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:18:13-65
+25-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:18:21-62
+26
+27            <data android:scheme="tel" />
+27-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:13-44
+27-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:19-41
+28        </intent>
+29        <intent>
+29-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:21:9-24:18
+30            <action android:name="android.intent.action.SEND" />
+30-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:22:13-65
+30-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:22:21-62
+31
+32            <data android:mimeType="*/*" />
+32-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:13-44
+33        </intent>
+34        <intent>
+34-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-12:18
+35            <action android:name="android.support.customtabs.action.CustomTabsService" />
+35-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-90
+35-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:11:21-87
+36        </intent> <!-- Needs to be explicitly declared on Android R+ -->
+37        <package android:name="com.google.android.apps.maps" />
+37-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:9-64
+37-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:33:18-61
+38        <package android:name="com.facebook.katana" />
+38-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:9-55
+38-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:18:18-52
+39
+40        <intent>
+40-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:25:9-27:18
+41            <action android:name="android.media.browse.MediaBrowserService" />
+41-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:13-79
+41-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:26:21-76
+42        </intent>
+43        <intent>
+43-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:28:9-30:18
+44            <action android:name="androidx.media2.session.MediaSessionService" />
+44-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:13-82
+44-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:29:21-79
+45        </intent>
+46        <intent>
+46-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:31:9-33:18
+47            <action android:name="androidx.media2.session.MediaLibraryService" />
+47-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:13-82
+47-->[androidx.media2:media2-session:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\f67c7b1ffd275ec94e0383a17741d4b4\transformed\jetified-media2-session-1.2.0\AndroidManifest.xml:32:21-79
+48        </intent>
+49    </queries>
+50
+51    <uses-permission android:name="android.permission.WAKE_LOCK" />
+51-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-68
+51-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-65
+52    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+52-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-79
+52-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-76
+53    <uses-permission android:name="android.permission.FOREGROUND_SERVICE" />
+53-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-77
+53-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-74
+54    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+54-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:5-81
+54-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:9:22-78
+55    <uses-permission android:name="android.permission.VIBRATE" />
+55-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:5-66
+55-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:10:22-63
+56    <uses-permission android:name="android.permission.USE_FULL_SCREEN_INTENT" />
+56-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:5-81
+56-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:11:22-78
+57    <uses-permission android:name="android.permission.SCHEDULE_EXACT_ALARM" />
+57-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:5-79
+57-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:12:22-76
+58
+59    <uses-feature
+59-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:26:5-28:35
+60        android:glEsVersion="0x00020000"
+60-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:27:9-41
+61        android:required="true" />
+61-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:28:9-32
+62
+63    <uses-permission android:name="android.permission.POST_NOTIFICATIONS" /> <!-- Required by older versions of Google Play services to create IID tokens -->
+63-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:26:5-77
+63-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:26:22-74
+64    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+64-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:29:5-82
+64-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:29:22-79
+65    <uses-permission android:name="com.google.android.gms.permission.AD_ID" />
+65-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:5-79
+65-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:16:22-76
+66    <uses-permission android:name="com.google.android.finsky.permission.BIND_GET_INSTALL_REFERRER_SERVICE" />
+66-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Yahia\.gradle\caches\transforms-3\85091b228af3766109fc2f1028a17ab5\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:5-110
+66-->[com.android.installreferrer:installreferrer:1.0] C:\Users\Yahia\.gradle\caches\transforms-3\85091b228af3766109fc2f1028a17ab5\transformed\jetified-installreferrer-1.0\AndroidManifest.xml:9:22-107
+67
+68    <application
+68-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:27:5-91:19
+69        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+69-->[androidx.core:core:1.8.0] C:\Users\Yahia\.gradle\caches\transforms-3\6b6b8dcfcb01145de3467ab1c0edf33b\transformed\core-1.8.0\AndroidManifest.xml:24:18-86
+70        android:debuggable="true"
+71        android:icon="@mipmap/ic_launcher"
+71-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:31:9-43
+72        android:label="Al Israa Pharmacy"
+72-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:28:9-42
+73        android:requestLegacyExternalStorage="true"
+73-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:29:9-52
+74        android:supportsRtl="true"
+74-->[com.facebook.android:facebook-android-sdk:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\dfb465227bb62a5819c19a48085cdb3d\transformed\jetified-facebook-android-sdk-16.0.1\AndroidManifest.xml:16:18-44
+75        android:usesCleartextTraffic="true" >
+75-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:30:9-44
+76        <meta-data
+76-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:32:9-33:70
+77            android:name="com.google.android.geo.API_KEY"
+77-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:32:20-65
+78            android:value="AIzaSyCaCSJ0BZItSyXqBv8vpD1N4WBffJeKhLQ" />
+78-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:33:13-68
+79
+80        <activity
+80-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:35:9-67:20
+81            android:name="com.sixamtech.sixam_mart.MainActivity"
+81-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:36:13-41
+82            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|smallestScreenSize|locale|layoutDirection|fontScale|screenLayout|density|uiMode"
+82-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:39:13-163
+83            android:exported="true"
+83-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:41:13-36
+84            android:hardwareAccelerated="true"
+84-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:40:13-47
+85            android:launchMode="singleTop"
+85-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:37:13-43
+86            android:theme="@style/LaunchTheme"
+86-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:38:13-47
+87            android:windowSoftInputMode="adjustResize" >
+87-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:42:13-55
+88
+89            <!--
+90                 Specifies an Android theme to apply to this Activity as soon as
+91                 the Android process has started. This theme is visible to the user
+92                 while the Flutter UI initializes. After that, this theme continues
+93                 to determine the Window background behind the Flutter UI.
+94            -->
+95            <meta-data
+95-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:47:13-50:17
+96                android:name="io.flutter.embedding.android.NormalTheme"
+96-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:48:15-70
+97                android:resource="@style/NormalTheme" />
+97-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:49:15-52
+98            <!--
+99                 Displays an Android View that continues showing the launch screen
+100                 Drawable until Flutter paints its first frame, then this splash
+101                 screen fades out. A splash screen is useful to avoid any visual
+102                 gap between the end of Android's launch screen and the painting of
+103                 Flutter's first frame.
+104            -->
+105            <meta-data
+105-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:56:13-58:43
+106                android:name="com.google.firebase.messaging.default_notification_channel_id"
+106-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:57:17-93
+107                android:value="6ammart" />
+107-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:58:17-40
+108
+109            <intent-filter>
+109-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:59:13-62:29
+110                <action android:name="android.intent.action.MAIN" />
+110-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:60:17-68
+110-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:60:25-66
+111
+112                <category android:name="android.intent.category.LAUNCHER" />
+112-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:61:17-76
+112-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:61:27-74
+113            </intent-filter>
+114            <intent-filter>
+114-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:63:13-66:29
+115                <action android:name="FLUTTER_NOTIFICATION_CLICK" />
+115-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:64:17-69
+115-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:64:25-66
+116
+117                <category android:name="android.intent.category.DEFAULT" />
+117-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:17-76
+117-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:27-73
+118            </intent-filter>
+119        </activity>
+120        <!--
+121             Don't delete the meta-data below.
+122             This is used by the Flutter tool to generate GeneratedPluginRegistrant.java
+123        -->
+124        <meta-data
+124-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:70:9-72:33
+125            android:name="flutterEmbedding"
+125-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:71:13-44
+126            android:value="2" />
+126-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:72:13-30
+127        <meta-data
+127-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:74:9-107
+128            android:name="com.facebook.sdk.ApplicationId"
+128-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:74:20-65
+129            android:value="@string/facebook_app_id" />
+129-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:74:66-105
+130        <meta-data
+130-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:75:9-111
+131            android:name="com.facebook.sdk.ClientToken"
+131-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:75:20-63
+132            android:value="@string/facebook_client_token" />
+132-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:75:64-109
+133
+134        <activity
+134-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:77:9-80:48
+135            android:name="com.facebook.FacebookActivity"
+135-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:77:19-63
+136            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+136-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:78:13-113
+137            android:label="@string/app_name"
+137-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:80:13-45
+138            android:theme="@style/com_facebook_activity_theme" />
+138-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:25:13-63
+139        <activity
+139-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:81:9-90:20
+140            android:name="com.facebook.CustomTabActivity"
+140-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:82:13-58
+141            android:exported="true" >
+141-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:83:13-36
+142            <intent-filter>
+142-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:84:13-89:29
+143                <action android:name="android.intent.action.VIEW" />
+143-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:13-65
+143-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:21-62
+144
+145                <category android:name="android.intent.category.DEFAULT" />
+145-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:17-76
+145-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:27-73
+146                <category android:name="android.intent.category.BROWSABLE" />
+146-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:87:17-78
+146-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:87:27-75
+147
+148                <data android:scheme="@string/fb_login_protocol_scheme" />
+148-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:13-44
+148-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:19-41
+149            </intent-filter>
+150            <intent-filter>
+150-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:31:13-40:29
+151                <action android:name="android.intent.action.VIEW" />
+151-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:13-65
+151-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:14:21-62
+152
+153                <category android:name="android.intent.category.DEFAULT" />
+153-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:17-76
+153-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:65:27-73
+154                <category android:name="android.intent.category.BROWSABLE" />
+154-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:87:17-78
+154-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:87:27-75
+155
+156                <data
+156-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:13-44
+157                    android:host="cct.com.sixamtech.sixam_mart"
+158                    android:scheme="fbconnect" />
+158-->D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\android\app\src\main\AndroidManifest.xml:15:19-41
+159            </intent-filter>
+160        </activity>
+161
+162        <service
+162-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:14:9-17:72
+163            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingBackgroundService"
+163-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-107
+164            android:exported="false"
+164-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-37
+165            android:permission="android.permission.BIND_JOB_SERVICE" />
+165-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-69
+166        <service
+166-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-24:19
+167            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingService"
+167-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-97
+168            android:exported="false" >
+168-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+169            <intent-filter>
+169-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+170                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+170-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+170-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+171            </intent-filter>
+172        </service>
+173
+174        <receiver
+174-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:26:9-33:20
+175            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingReceiver"
+175-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-98
+176            android:exported="true"
+176-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-36
+177            android:permission="com.google.android.c2dm.permission.SEND" >
+177-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:29:13-73
+178            <intent-filter>
+178-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+179                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+179-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+179-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+180            </intent-filter>
+181        </receiver>
+182
+183        <service
+183-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:9-39:19
+184            android:name="com.google.firebase.components.ComponentDiscoveryService"
+184-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:35:18-89
+185            android:directBootAware="true"
+185-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:35:13-43
+186            android:exported="false" >
+186-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:55:13-37
+187            <meta-data
+187-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-38:85
+188                android:name="com.google.firebase.components:io.flutter.plugins.firebase.messaging.FlutterFirebaseAppRegistrar"
+188-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:37:17-128
+189                android:value="com.google.firebase.components.ComponentRegistrar" />
+189-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:38:17-82
+190            <meta-data
+190-->[:firebase_core] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-13:85
+191                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
+191-->[:firebase_core] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:12:17-124
+192                android:value="com.google.firebase.components.ComponentRegistrar" />
+192-->[:firebase_core] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_core\intermediates\merged_manifest\debug\AndroidManifest.xml:13:17-82
+193            <meta-data
+193-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:56:13-58:85
+194                android:name="com.google.firebase.components:com.google.firebase.messaging.FirebaseMessagingRegistrar"
+194-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:57:17-119
+195                android:value="com.google.firebase.components.ComponentRegistrar" />
+195-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:58:17-82
+196            <meta-data
+196-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\Yahia\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:28:13-30:85
+197                android:name="com.google.firebase.components:com.google.firebase.datatransport.TransportRegistrar"
+197-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\Yahia\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:29:17-115
+198                android:value="com.google.firebase.components.ComponentRegistrar" />
+198-->[com.google.firebase:firebase-datatransport:18.1.5] C:\Users\Yahia\.gradle\caches\transforms-3\800f2f7a77948ee3be86c7956bfdc2b9\transformed\jetified-firebase-datatransport-18.1.5\AndroidManifest.xml:30:17-82
+199            <meta-data
+199-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:18:13-20:85
+200                android:name="com.google.firebase.components:com.google.firebase.installations.FirebaseInstallationsRegistrar"
+200-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:19:17-127
+201                android:value="com.google.firebase.components.ComponentRegistrar" />
+201-->[com.google.firebase:firebase-installations:17.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\bf5f63a0728dd2da674c251bdecb61a8\transformed\jetified-firebase-installations-17.0.1\AndroidManifest.xml:20:17-82
+202        </service>
+203
+204        <provider
+204-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:41:9-45:38
+205            android:name="io.flutter.plugins.firebase.messaging.FlutterFirebaseMessagingInitProvider"
+205-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-102
+206            android:authorities="com.sixamtech.sixam_mart.flutterfirebasemessaginginitprovider"
+206-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-88
+207            android:exported="false"
+207-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:44:13-37
+208            android:initOrder="99" />
+208-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:45:13-35
+209
+210        <service
+210-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:9-16:56
+211            android:name="com.baseflow.geolocator.GeolocatorLocationService"
+211-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-77
+212            android:enabled="true"
+212-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-35
+213            android:exported="false"
+213-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-37
+214            android:foregroundServiceType="location" />
+214-->[:geolocator_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\geolocator_android\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-53
+215
+216        <receiver
+216-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:15:9-17:40
+217            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationReceiver"
+217-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:16:13-97
+218            android:exported="false" />
+218-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-37
+219        <receiver
+219-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:18:9-27:20
+220            android:name="com.dexterous.flutterlocalnotifications.ScheduledNotificationBootReceiver"
+220-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-101
+221            android:exported="false" >
+221-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-37
+222            <intent-filter>
+222-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-26:29
+223                <action android:name="android.intent.action.BOOT_COMPLETED" />
+223-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-79
+223-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-76
+224                <action android:name="android.intent.action.MY_PACKAGE_REPLACED" />
+224-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:17-84
+224-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:23:25-81
+225                <action android:name="android.intent.action.QUICKBOOT_POWERON" />
+225-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:17-82
+225-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:24:25-79
+226                <action android:name="com.htc.intent.action.QUICKBOOT_POWERON" />
+226-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:17-82
+226-->[:flutter_local_notifications] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_local_notifications\intermediates\merged_manifest\debug\AndroidManifest.xml:25:25-79
+227            </intent-filter>
+228        </receiver>
+229
+230        <activity
+230-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:16:9-20:47
+231            android:name="com.pichillilorenzo.flutter_inappwebview.in_app_browser.InAppBrowserActivity"
+231-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:17:13-104
+232            android:configChanges="orientation|keyboardHidden|keyboard|screenSize|locale|layoutDirection|fontScale|screenLayout|density"
+232-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:18:13-137
+233            android:exported="false"
+233-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:19:13-37
+234            android:theme="@style/AppTheme" />
+234-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:20:13-44
+235        <activity
+235-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:21:9-24:55
+236            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivity"
+236-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:22:13-112
+237            android:exported="false"
+237-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:23:13-37
+238            android:theme="@style/ThemeTransparent" />
+238-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:24:13-52
+239        <activity
+239-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:25:9-28:55
+240            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivity"
+240-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:26:13-106
+241            android:exported="false"
+241-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:27:13-37
+242            android:theme="@style/ThemeTransparent" />
+242-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:28:13-52
+243        <activity
+243-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:29:9-33:55
+244            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ChromeCustomTabsActivitySingleInstance"
+244-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-126
+245            android:exported="false"
+245-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:31:13-37
+246            android:launchMode="singleInstance"
+246-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:32:13-48
+247            android:theme="@style/ThemeTransparent" />
+247-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:33:13-52
+248        <activity
+248-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:34:9-38:55
+249            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.TrustedWebActivitySingleInstance"
+249-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:35:13-120
+250            android:exported="false"
+250-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:36:13-37
+251            android:launchMode="singleInstance"
+251-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:37:13-48
+252            android:theme="@style/ThemeTransparent" />
+252-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:38:13-52
+253
+254        <receiver
+254-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:40:9-43:40
+255            android:name="com.pichillilorenzo.flutter_inappwebview.chrome_custom_tabs.ActionBroadcastReceiver"
+255-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:41:13-111
+256            android:enabled="true"
+256-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:42:13-35
+257            android:exported="false" />
+257-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:43:13-37
+258
+259        <meta-data
+259-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:45:9-47:36
+260            android:name="io.flutter.embedded_views_preview"
+260-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:46:13-61
+261            android:value="true" />
+261-->[:flutter_inappwebview] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\flutter_inappwebview\intermediates\merged_manifest\debug\AndroidManifest.xml:47:13-33
+262
+263        <provider
+263-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+264            android:name="dev.fluttercommunity.plus.share.ShareFileProvider"
+264-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-77
+265            android:authorities="com.sixamtech.sixam_mart.flutter.share_provider"
+265-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+266            android:exported="false"
+266-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+267            android:grantUriPermissions="true" >
+267-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+268            <meta-data
+268-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+269                android:name="android.support.FILE_PROVIDER_PATHS"
+269-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+270                android:resource="@xml/flutter_share_file_paths" />
+270-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+271        </provider>
+272        <provider
+272-->[:image_picker_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-18:20
+273            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
+273-->[:image_picker_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-82
+274            android:authorities="com.sixamtech.sixam_mart.flutter.image_provider"
+274-->[:image_picker_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-74
+275            android:exported="false"
+275-->[:image_picker_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-37
+276            android:grantUriPermissions="true" >
+276-->[:image_picker_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\image_picker_android\intermediates\merged_manifest\debug\AndroidManifest.xml:14:13-47
+277            <meta-data
+277-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:15:13-17:68
+278                android:name="android.support.FILE_PROVIDER_PATHS"
+278-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:16:17-67
+279                android:resource="@xml/flutter_image_picker_file_paths" />
+279-->[:share_plus] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\share_plus\intermediates\merged_manifest\debug\AndroidManifest.xml:17:17-65
+280        </provider>
+281
+282        <activity
+282-->[:url_launcher_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:10:9-13:74
+283            android:name="io.flutter.plugins.urllauncher.WebViewActivity"
+283-->[:url_launcher_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:11:13-74
+284            android:exported="false"
+284-->[:url_launcher_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:12:13-37
+285            android:theme="@android:style/Theme.NoTitleBar.Fullscreen" />
+285-->[:url_launcher_android] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\url_launcher_android\intermediates\merged_manifest\debug\AndroidManifest.xml:13:13-71
+286
+287        <uses-library
+287-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:25:9-27:40
+288            android:name="androidx.window.extensions"
+288-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:26:13-54
+289            android:required="false" />
+289-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:27:13-37
+290        <uses-library
+290-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:28:9-30:40
+291            android:name="androidx.window.sidecar"
+291-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:29:13-51
+292            android:required="false" /> <!-- Needs to be explicitly declared on P+ -->
+292-->[androidx.window:window:1.0.0-beta04] C:\Users\Yahia\.gradle\caches\transforms-3\e6f37bae564deafd7b2906a7249778f2\transformed\jetified-window-1.0.0-beta04\AndroidManifest.xml:30:13-37
+293        <uses-library
+293-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:39:9-41:40
+294            android:name="org.apache.http.legacy"
+294-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:40:13-50
+295            android:required="false" />
+295-->[com.google.android.gms:play-services-maps:18.0.2] C:\Users\Yahia\.gradle\caches\transforms-3\cb295a515f2fa15a480ef3b0e3ecfe50\transformed\jetified-play-services-maps-18.0.2\AndroidManifest.xml:41:13-37
+296
+297        <activity android:name="com.facebook.CustomTabMainActivity" />
+297-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:9-71
+297-->[com.facebook.android:facebook-common:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\5b619c91aee0c89199ac778947a68bfa\transformed\jetified-facebook-common-16.0.1\AndroidManifest.xml:26:19-68
+298        <activity
+298-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:23:9-27:75
+299            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+299-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:24:13-93
+300            android:excludeFromRecents="true"
+300-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:25:13-46
+301            android:exported="false"
+301-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:26:13-37
+302            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+302-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:27:13-72
+303        <!--
+304            Service handling Google Sign-In user revocation. For apps that do not integrate with
+305            Google Sign-In, this service will never be started.
+306        -->
+307        <service
+307-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:33:9-37:51
+308            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+308-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:34:13-89
+309            android:exported="true"
+309-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:35:13-36
+310            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION"
+310-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:36:13-107
+311            android:visibleToInstantApps="true" />
+311-->[com.google.android.gms:play-services-auth:20.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\0d1ffc11c68293e1e281f9ed3209ac2a\transformed\jetified-play-services-auth-20.0.1\AndroidManifest.xml:37:13-48
+312
+313        <receiver
+313-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:32:9-39:20
+314            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+314-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:33:13-78
+315            android:exported="true"
+315-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:34:13-36
+316            android:permission="com.google.android.c2dm.permission.SEND" >
+316-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:35:13-73
+317            <intent-filter>
+317-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:30:13-32:29
+318                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+318-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:17-81
+318-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:31:25-78
+319            </intent-filter>
+320        </receiver>
+321        <!--
+322             FirebaseMessagingService performs security checks at runtime,
+323             but set to not exported to explicitly avoid allowing another app to call it.
+324        -->
+325        <service
+325-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:45:9-52:19
+326            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+326-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:46:13-82
+327            android:directBootAware="true"
+327-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:47:13-43
+328            android:exported="false" >
+328-->[com.google.firebase:firebase-messaging:23.0.6] C:\Users\Yahia\.gradle\caches\transforms-3\6788ed7a7f00a5713697ccd9d4b6a8e7\transformed\jetified-firebase-messaging-23.0.6\AndroidManifest.xml:48:13-37
+329            <intent-filter android:priority="-500" >
+329-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:21:13-23:29
+330                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+330-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:17-78
+330-->[:firebase_messaging] D:\apps\new\mart\6ammart-17nulled\codecanyon-36772112-6ammart-multivendor-food-grocery-ecommerce-parcel-pharmacy-delivery-app-with-admin-website\User app and web\build\firebase_messaging\intermediates\merged_manifest\debug\AndroidManifest.xml:22:25-75
+331            </intent-filter>
+332        </service>
+333
+334        <activity
+334-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:9-22:45
+335            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+335-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:20:19-85
+336            android:exported="false"
+336-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:22:19-43
+337            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+337-->[com.google.android.gms:play-services-base:18.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\c882be543d19e10129fd8982db6ef5f8\transformed\jetified-play-services-base-18.0.1\AndroidManifest.xml:21:19-78
+338
+339        <provider
+339-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:26:9-31:39
+340            android:name="com.google.firebase.provider.FirebaseInitProvider"
+340-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:27:13-77
+341            android:authorities="com.sixamtech.sixam_mart.firebaseinitprovider"
+341-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:28:13-72
+342            android:directBootAware="true"
+342-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:29:13-43
+343            android:exported="false"
+343-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:30:13-37
+344            android:initOrder="100" />
+344-->[com.google.firebase:firebase-common:20.1.1] C:\Users\Yahia\.gradle\caches\transforms-3\4345a488b2125527a62485fae3c084a7\transformed\jetified-firebase-common-20.1.1\AndroidManifest.xml:31:13-36
+345
+346        <meta-data
+346-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Yahia\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:21:9-23:69
+347            android:name="com.google.android.gms.version"
+347-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Yahia\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:22:13-58
+348            android:value="@integer/google_play_services_version" />
+348-->[com.google.android.gms:play-services-basement:18.0.0] C:\Users\Yahia\.gradle\caches\transforms-3\5831a50b3af20780b2d9b5f56e2d6cd2\transformed\jetified-play-services-basement-18.0.0\AndroidManifest.xml:23:13-66
+349        <!--
+350         The initialization ContentProvider will call FacebookSdk.sdkInitialize automatically
+351         with the application context. This config is merged in with the host app's manifest,
+352         but there can only be one provider with the same authority activated at any given
+353         point; so if the end user has two or more different apps that use Facebook SDK, only the
+354         first one will be able to use the provider. To work around this problem, we use the
+355         following placeholder in the authority to identify each host application as if it was
+356         a completely different provider.
+357        -->
+358        <provider
+358-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:29:9-32:40
+359            android:name="com.facebook.internal.FacebookInitProvider"
+359-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:30:13-70
+360            android:authorities="com.sixamtech.sixam_mart.FacebookInitProvider"
+360-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:31:13-72
+361            android:exported="false" />
+361-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:32:13-37
+362
+363        <receiver
+363-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:34:9-40:20
+364            android:name="com.facebook.CurrentAccessTokenExpirationBroadcastReceiver"
+364-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:35:13-86
+365            android:exported="false" >
+365-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:36:13-37
+366            <intent-filter>
+366-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:37:13-39:29
+367                <action android:name="com.facebook.sdk.ACTION_CURRENT_ACCESS_TOKEN_CHANGED" />
+367-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:17-95
+367-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:38:25-92
+368            </intent-filter>
+369        </receiver>
+370        <receiver
+370-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:41:9-47:20
+371            android:name="com.facebook.AuthenticationTokenManager$CurrentAuthenticationTokenChangedBroadcastReceiver"
+371-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:42:13-118
+372            android:exported="false" >
+372-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:43:13-37
+373            <intent-filter>
+373-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:44:13-46:29
+374                <action android:name="com.facebook.sdk.ACTION_CURRENT_AUTHENTICATION_TOKEN_CHANGED" />
+374-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:17-103
+374-->[com.facebook.android:facebook-core:16.0.1] C:\Users\Yahia\.gradle\caches\transforms-3\a404f36eee4ceb56db804b05d4bb96de\transformed\jetified-facebook-core-16.0.1\AndroidManifest.xml:45:25-100
+375            </intent-filter>
+376        </receiver>
+377
+378        <provider
+378-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:24:9-32:20
+379            android:name="androidx.startup.InitializationProvider"
+379-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:25:13-67
+380            android:authorities="com.sixamtech.sixam_mart.androidx-startup"
+380-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:26:13-68
+381            android:exported="false" >
+381-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:27:13-37
+382            <meta-data
+382-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:29:13-31:52
+383                android:name="androidx.emoji2.text.EmojiCompatInitializer"
+383-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:30:17-75
+384                android:value="androidx.startup" />
+384-->[androidx.emoji2:emoji2:1.2.0] C:\Users\Yahia\.gradle\caches\transforms-3\1b3d78dc83dae2bae7bf12c02fa3d271\transformed\jetified-emoji2-1.2.0\AndroidManifest.xml:31:17-49
+385            <meta-data
+385-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yahia\.gradle\caches\transforms-3\695723e548e4927f08fbed956dc76ecc\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:31:13-33:52
+386                android:name="androidx.lifecycle.ProcessLifecycleInitializer"
+386-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yahia\.gradle\caches\transforms-3\695723e548e4927f08fbed956dc76ecc\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:32:17-78
+387                android:value="androidx.startup" />
+387-->[androidx.lifecycle:lifecycle-process:2.4.1] C:\Users\Yahia\.gradle\caches\transforms-3\695723e548e4927f08fbed956dc76ecc\transformed\jetified-lifecycle-process-2.4.1\AndroidManifest.xml:33:17-49
+388        </provider>
+389
+390        <service
+390-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:29:9-35:19
+391            android:name="com.google.android.datatransport.runtime.backends.TransportBackendDiscovery"
+391-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:30:13-103
+392            android:exported="false" >
+392-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:31:13-37
+393            <meta-data
+393-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:32:13-34:39
+394                android:name="backend:com.google.android.datatransport.cct.CctBackendFactory"
+394-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:33:17-94
+395                android:value="cct" />
+395-->[com.google.android.datatransport:transport-backend-cct:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\1e06fdabf3d4e5359ba4d98fa376ac87\transformed\jetified-transport-backend-cct-3.1.6\AndroidManifest.xml:34:17-36
+396        </service>
+397        <service
+397-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:26:9-30:19
+398            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.JobInfoSchedulerService"
+398-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:27:13-117
+399            android:exported="false"
+399-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:28:13-37
+400            android:permission="android.permission.BIND_JOB_SERVICE" >
+400-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:29:13-69
+401        </service>
+402
+403        <receiver
+403-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:32:9-34:40
+404            android:name="com.google.android.datatransport.runtime.scheduling.jobscheduling.AlarmManagerSchedulerBroadcastReceiver"
+404-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:33:13-132
+405            android:exported="false" />
+405-->[com.google.android.datatransport:transport-runtime:3.1.6] C:\Users\Yahia\.gradle\caches\transforms-3\8e00a4b805e50da92bf2222fefadca66\transformed\jetified-transport-runtime-3.1.6\AndroidManifest.xml:34:13-37
+406    </application>
+407
+408</manifest>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="default_web_client_id" translatable="false">1000163153346-48ckm2uf7h70hmgn74kg1gq02sval158.apps.googleusercontent.com</string>
+    <string name="gcm_defaultSenderId" translatable="false">1000163153346</string>
+    <string name="google_api_key" translatable="false">AIzaSyCic6Mw3RRPFcimXhwGidwhCN0tXY7HFFc</string>
+    <string name="google_app_id" translatable="false">1:1000163153346:android:7d49ab307cc6e18406b25b</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyCic6Mw3RRPFcimXhwGidwhCN0tXY7HFFc</string>
+    <string name="google_storage_bucket" translatable="false">ammart-8885e.appspot.com</string>
+    <string name="project_id" translatable="false">ammart-8885e</string>
+</resources>
